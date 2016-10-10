@@ -1,0 +1,571 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.1)  30 SEP 2016 22:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**assignment1.tex
+(./assignment1.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count87
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count88
+\lst@currlwidth=\dimen103
+\lst@column=\count89
+\lst@pos=\count90
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count91
+\lst@lineno=\count92
+\lst@maxwidth=\dimen106
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count93
+\lst@skipnumbers=\count94
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@count=\count107
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen116
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count108
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip46
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count109
+\U@D=\dimen117
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@ContinuedFloat=\count113
+Package caption Info: listings package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen133
+\lightrulewidth=\dimen134
+\cmidrulewidth=\dimen135
+\belowrulesep=\dimen136
+\belowbottomsep=\dimen137
+\aboverulesep=\dimen138
+\abovetopsep=\dimen139
+\cmidrulesep=\dimen140
+\cmidrulekern=\dimen141
+\defaultaddspace=\dimen142
+\@cmidla=\count114
+\@cmidlb=\count115
+\@aboverulesep=\dimen143
+\@belowrulesep=\dimen144
+\@thisruleclass=\count116
+\@lastruleclass=\count117
+\@thisrulewidth=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
+\c@DefaultLines=\count118
+\c@DefaultDepth=\count119
+\DefaultFindent=\dimen146
+\DefaultNindent=\dimen147
+\DefaultSlope=\dimen148
+\DiscardVskip=\dimen149
+\L@lbox=\box30
+\L@tbox=\box31
+\c@L@lines=\count120
+\c@L@depth=\count121
+\L@Pindent=\dimen150
+\L@Findent=\dimen151
+\L@Nindent=\dimen152
+\L@lraise=\dimen153
+\L@first=\dimen154
+\L@next=\dimen155
+\L@slope=\dimen156
+\L@height=\dimen157
+\L@novskip=\dimen158
+\LettrineWidth=\dimen159
+\LettrineHeight=\dimen160
+\LettrineDepth=\dimen161
+
+Loading lettrine.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip47
+\enit@outerparindent=\dimen162
+\enit@toks=\toks23
+\enit@inbox=\box32
+\enitdp@description=\count122
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip48
+\thanksmargin=\skip49
+\droptitle=\skip50
+)
+(./assignment1.aux)
+\openout1 = `assignment1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 44.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+)
+\c@lstlisting=\count123
+LaTeX Info: Redefining \microtypecontext on input line 44.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(91.04881pt, 652.59138pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=652.59138pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-18.22118pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=20.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 52.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Overfull \hbox (22.98633pt too wide) in paragraph at lines 74--104
+\OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 List\OT1/zplm/m/n/10 
+(\OT1/pplx/m/n/10 (-20) 0, 0, 0\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \OML/
+zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0, 0, 1\OT1/zplm/m/n/
+10 )\OT1/pplx/m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/
+m/n/10 (-20) 0, 1, 0\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \OML/zplm/m/it/1
+0 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0, 1, 1\OT1/zplm/m/n/10 )\OT1/pp
+lx/m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20
+) 1, 0, 0\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/
+zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 1, 0, 1\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (
+-20) , \OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 1, 1, 0\O
+T1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/zplm/m/n/10
+ (\OT1/pplx/m/n/10 (-20) 1, 1, 1\OT1/zplm/m/n/10 ))$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+
+Overfull \hbox (17.7562pt too wide) in paragraph at lines 74--104
+\OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0\OT1/zplm/m/n/1
+0 ) \OMS/zplm/m/n/10 ) \OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
+0 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0, 0\OT1/zplm/m/n/10 )\OT1/pplx/
+m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0
+, 1\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \OML/zplm/m/it/10 List\OT1/zplm/m
+/n/10 (\OT1/pplx/m/n/10 (-20) 0, 2\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 (-20) , \O
+ML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 (-20) 0, 3\OT1/zplm/m/n/
+10 ))$ \T1/pplx/m/n/10 (-20) for the pa-ram-e-ter $\OML/zplm/m/it/10 list$ \T1/
+pplx/m/n/10 (-20) equals to $\OML/zplm/m/it/10 List\OT1/zplm/m/n/10 (\OT1/pplx/
+m/n/10 (-20) 0, 1, 2, 3\OT1/zplm/m/n/10 )$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+
+ []
+
+[2] [3] (./assignment1.aux) ) 
+Here is how much of TeX's memory you used:
+ 6579 strings out of 494953
+ 100011 string characters out of 6180978
+ 211781 words of memory out of 5000000
+ 9656 multiletter control sequences out of 15000+600000
+ 44006 words of font info for 158 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,7n,51p,492b,980s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/palatino/uplri8a.pfb>
+Output written on assignment1.pdf (3 pages, 77337 bytes).
+PDF statistics:
+ 39 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 40449 words of extra memory for PDF output out of 42996 (max. 10000000)
+

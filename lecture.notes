@@ -1,0 +1,155 @@
+scala> :load MyFirstFile.scala
+
+(all letters)
+|
+^
+&
+= !
+< >
+:
++ -
+* / \%
+(all other special characters)
+
+&& and
+|| or
+
+if(BooleanExpression) { Expression }
+if(BooleanExpression) { ExpressionTrue } else { ExpressionFalse }
+
+while (BooleanExpression) { Expression }
+do { Expression } while (BooleanExpression)
+
+for (i <- 1 to 10) { statement }
+
+{ statement; statement; }
+
+/* Multiple
+line
+comment */
+// One line comment
+
+
+val nameConstant: Type = expression
+var nameVariable: Type = expression
+
+nested declaration
+val a = {
+val a1 = 10
+val a2 = "In text: "+a1+" is ten"
+(a1, a2)
+}
+
+Functions
+def func(a:Int, b:Int): Int = a + b
+
+() => 1
+(n: Int) => n*n
+
+(a:Int) => 2*a
+(a:Int, b:Int) => a+b
+(a:Int, f:Int=>Int) => f(a)
+((a:Int, f:Int=>Int) => f(a))(3,((a:Int)=>2*a))
+
+val name = <anonymous-function-definition>
+
+val f1 = (a:Int) => 2*a
+val f1:(Int => Int) = a => 2*a
+
+val f2:((Int,Int)=>Int) = (a:Int, b:Int) => a+b
+val f2:((Int,Int)=>Int) = (a, b) => a+b
+val f3:((Int,Int=>Int)=>Int) = (a:Int, f:Int=>Int) => f(a)
+val f3:((Int,Int=>Int)=>Int) = (a, f) => f(a)
+
+val b = (n: Int) => n*n
+val b: Int => Int = (n) => n*n
+val b: (Int => Int) = n => n*n
+
+Common definition
+val highOrder: (Int => Int, Int) => Int = (f, n) => f(n)
+highOrder(n => n + 1, 4)
+
+akka's actor system
+
+Collections:
+immutable -> lists
+mutable -> arrays
+
+val x = Array(1, 2, 3, 4)
+val y = x
+x(1) = 20
+x = Array(1, 20, 3, 4)
+y = Array(1, 20, 3, 4)
+
+List
+Array
+Range 1 to 10
+Set intersection
+Map Map("one" -> 1, "two" -> 2, ..., "five" -> 5)
+
+foreach loop
+
+Higher-order function
+
+map
+filter
+zip
+zipped
+partition
+foldLeft
+foldRight
+
+Lazy and Eager Evaluation
+
+Eager -> Evaluate the parameter and apply the function
+strict functions
+
+Lazy -> delay expressions until when needed
+expensive computation
+define infinite structures
+
+val lazyCond: ((Boolean, => Int, => Int) => Int) = (condition, thenf, elsef) => if (condition) thenf else elsef
+
+Parameter passing
+- Pass by_value: function receives a copy
+- Pass by_reference: function receives a pointer
+- Pass by_name: only when needed and as many times as needed
+- Pass by_need: only when needed and parameters are evaluated AT MOST once
+
+lazy val xLazy = {println("condition"), 1}
+
+Streams
+
+val stream:Stream[Int] = 0#::stream.map(_ + 1)
+
+OOP
+
+abstract class
+
+singleton objects
+
+access modifiers
+
+traits
+
+inheritance
+
+polymorphism
+subtyping
+universal
+
+class Tweet(val text: String) <- public property
+subclasses can use protected properties
+subclasses can override methods
+abstract classes can not be instantiated
+abstract can have both implemented and unimplemented methods
+singleton objects do not have parameters and can not be instantiated
+companion objects are able to access private properties of the companion class
+traits do not take parameters
+use "with" to define that a class implements multiple traits
+
+def map[A, B](l: List[A], f: A => B): List[B]
+map[Int, Char]()
+
+Functors
+When map function is implemented in a way that it does not change the structure of 

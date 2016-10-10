@@ -1,0 +1,71 @@
+Classes with polymorphic types
+
+Algebraic Data Types
+concise representation
+focus on the properties
+Haskell, Standard ML
+Pattern matching
+
+3 types of ADT (examples in Standard ML)
+ADT as a set of constants
+
+datatype slight = red | green | yellow
+fun holiday sunday = true |
+    holiday saturday = true |
+    holiday _ = false
+
+ADT with parametric terms
+
+datatype shape =  point |
+                  circle of real (name of constant and type of the parameter) |
+                  box of real * real
+fun area point = 0.0 |
+    area circle(r) = 3.14*r |
+    area box(w, h) = w*h
+
+ADT recursion
+
+datatype 'a list = emptylist | add of 'a * 'a list
+add(2, add(3, emptylist))
+fun remove e emptylist = emptylist |
+    remove e (add(a, l) = if (a = e) then remove e l  else add(a, remove(e, l))
+
+datatype 'a tree = emptytree | add of 'a * 'a tree * 'a tree
+add(2, add(3, emptytree, emptytree), emptytree)
+
+Scala
+constants -> case objects
+
+trait ADTname
+case object nameOne extends of ADTname
+case object nameTwo extends of ADTname
+case object nameThree extends of ADTname
+
+trait slight
+case object red extends of slight
+case object green extends of slight
+case object yellow extends of slight
+
+parametric -> case classes
+
+trait shape
+case object point extends shape
+case class circle (rad: Double) extends shape
+case class box (w: Double, h: Double) extends shape
+
+def area(s: Shape): Double = s match {
+  case Point => 0.0
+  case Circle(r) => 3.14*r
+  case Box(w, h) => w*h
+}
+
+trait ListOfA[+A]
+case object Emptylist extends ListOfA[Nothing]
+case class Add[A](head: A, tail: ListOfA[A]) extends ListOfA[A]
+
+def remove[A](e: A, l:ListOfA[A]): ListOfA[A] = l match {
+  case Emptylist => Emptylist
+  case Add(a, tl) => if(a == e) remove(a, tl) else Add(a, remove(e, tl))
+}
+
+trait Stack[+A]
