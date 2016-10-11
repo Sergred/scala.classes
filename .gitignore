@@ -4,3 +4,9 @@
 *.aux
 *.log
 *.pdf
+.settings
+.worksheet
+.classpath
+.project
+bin/
+src/
