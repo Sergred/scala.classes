@@ -128,11 +128,9 @@ val t = stream(0, n => math.pow(-4.0/3, n)/(2*n + 1))
 
 val diff: ((Stream[Double], Stream[Double]) => Stream[Double]) = (s1, s2) => math.abs(s1.head - s2.head)#::diff(s1.tail, s2.tail)
 
-val pi: ((Stream[Double], Double) => (Int => Double)) = (stream, coef) => {
-	n => n match {
-		case 0 => 0.0
-		case _ => coef*stream.head + pi(stream.tail, coef)(n - 1)
-	}
+val pi: ((Stream[Double], Double) => (Int => Double)) = (stream, coef) => n => n match {
+	case 0 => 0.0
+	case _ => coef*stream.head + pi(stream.tail, coef)(n - 1)
 }
 
 // pi(s, 4)(5)
@@ -148,7 +146,6 @@ lazy val sumn: (Stream[Double] => Stream[Double]) = stream => {
 	lazy val go: ((Stream[Double], Int) => Stream[Double]) = (stream, n) => sum(stream, n)#::go(stream, n + 1)
 	go(stream, 1)
 }
-
 
 // sumn(s).take(5) foreach println
 // foo(s).take(5) foreach println

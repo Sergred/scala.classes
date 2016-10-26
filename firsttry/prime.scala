@@ -1,4 +1,4 @@
-val foo: (Stream[Int] => Stream[Int]) = s => s.head#::s.tail.filter(_ % s.head != 0)
+val foo: (Stream[Int] => Stream[Int]) = s => s.head#::foo(s.tail.filter(_ % s.head != 0))
 val stream:Stream[Int] = 2#::stream.map(_ + 1)
 val primes = foo(stream)
 
